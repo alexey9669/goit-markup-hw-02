@@ -3,11 +3,7 @@ body {
   background: #e5e5e5;
 }
 h3 {
-    position: absolute;
-    width: 322px;
-    height: 36px;
-    left: 239px;
-    top: 576px;
+   
     
     font-family: Roboto;
     font-style: normal;
@@ -19,11 +15,7 @@ h3 {
 }
 p {
   color: #757575;
-  position: absolute;
-width: 322px;
-height: 30px;
-left: 639px;
-top: 616px;
+ 
 
 font-family: Roboto;
 font-style: normal;
@@ -37,11 +29,6 @@ letter-spacing: 0.03em;
 button {
   font-weight: 500;
   cursor: pointer;
-  position: absolute;
-  width: 29px;
-  height: 26px;
-  left: 517px;
-  top: 180px;
   
   font-family: Roboto;
   font-style: normal;
