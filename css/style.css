@@ -3,18 +3,52 @@ body {
   background: #e5e5e5;
 }
 h3 {
-  color: #212121;
-  font-weight: bold;
-  font-size: 700;
+    position: absolute;
+    width: 322px;
+    height: 36px;
+    left: 239px;
+    top: 576px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
 }
 p {
   color: #757575;
-  font-size: 500;
+  position: absolute;
+width: 322px;
+height: 30px;
+left: 639px;
+top: 616px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+letter-spacing: 0.03em;
+
 }
 button {
   font-weight: 500;
   cursor: pointer;
-  display: inline-block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  position: absolute;
+  width: 29px;
+  height: 26px;
+  left: 517px;
+  top: 180px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
 }
