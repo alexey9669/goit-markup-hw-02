@@ -2,10 +2,12 @@ body  { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxyg
 background: #e5e5e5}
 h3 { color: #212121;
     font-weight: bold;
-    font-size: 2;
+    font-size: 700;
+    
 }
 p {
   color: #757575;
-  font-size: 1.25;
+  font-size: 500;
 }
-button {font-weight: 500;cursor: pointer;}
+button {font-weight: 500;cursor: pointer;
+display: inline-block ; margin-block-start: 1em; margin-block-end: 1em;}
