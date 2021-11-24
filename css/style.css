@@ -1,6 +1,6 @@
 body {
   font-family: Roboto, sans-serif, raleway;
-  background: #e5e5e5;
+  background-color:white;
 }
 h3 {
    
@@ -13,19 +13,16 @@ h3 {
     /* identical to box height, or 200% */
     letter-spacing: 0.06em;
 }
-p {
+p> h3 {font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  
   color: #757575;
- 
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 187% */
-letter-spacing: 0.03em;
-
-}
+}  
 button {
   font-weight: 500;
   cursor: pointer;
@@ -38,4 +35,41 @@ button {
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
+  background-color: blue;
+  color: white;
+}
+header {
+  text-decoration: none;
+}
+  
+footer {
+  background-color: #2F303A;
+}
+
+  .h1 {
+    background-color: #2F303A;
+font-family: roboto;
+text-align: center;
+color: #FFFFFF;
+  }
+  .team
+  {
+    background-color: #F5F4FA;;
+  }
+  .logo{
+    color: black;
+    font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+text-decoration: none;
+  }
+  .logo::first-letter{
+    color: blue;
+    --secondary-logo-color: #AFB1B8;
+  }
+  .site-nav-accent a:hover,
+.site-nav-accent a:focus {
+    color: var(--accent-primary-color);
 }
