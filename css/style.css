@@ -66,10 +66,18 @@ line-height: 31px;
 text-decoration: none;
   }
   .logo::first-letter{
-    color: blue;
+    color: #2196F3;
     --secondary-logo-color: #AFB1B8;
   }
-  .site-nav-accent a:hover,
-.site-nav-accent a:focus {
-    color: var(--accent-primary-color);
-}
+  .menu {
+    color: black;
+    text-decoration: none;
+  }
+  .menu :hover {
+      background-color: black;
+      color: white;
+  }
+  .menu:focus {
+    color: #2196F3;
+  }
+
