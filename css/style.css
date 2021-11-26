@@ -122,3 +122,16 @@ color: #212121;
 .adre{
   color: white;
 }
+.list{
+  font-size: 18px;
+line-height: 2,0;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.lis{
+font-size: 16px;
+line-height: 1,9;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
