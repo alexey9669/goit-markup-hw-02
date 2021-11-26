@@ -5,26 +5,8 @@ body {
 li {
   list-style-type: none;
 }
-h3 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 36px;
-  /* identical to box height, or 200% */
-  letter-spacing: 0.06em;
-}
-p > h3 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-  letter-spacing: 0.03em;
 
-  color: #757575;
-}
+
 button {
   font-weight: 500;
   cursor: pointer;
@@ -37,22 +19,27 @@ button {
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   color: #212121;
 }
-button:hover{
-  background-color: #2196F3;
+button:hover {
+  background-color: #2196f3;
 }
 
 footer {
   background-color: #2f303a;
 }
 
-.h1 {
-  background-color: #2f303a;
-  font-family: roboto;
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
   text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
   color: #ffffff;
+  background-color: #2F303A;
 }
 .team {
   background-color: #f5f4fa;
@@ -63,7 +50,7 @@ footer {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 2;
   text-decoration: none;
 }
 .menu {
@@ -77,21 +64,61 @@ footer {
 
 .active {
   color: #2196f3;
-  
 }
 .adr {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
   color: #757575;
-  display: inline-flex;
-  display: flex;
-  justify-content: flex-end;
 }
 .adr:hover {
   color: #2196f3;
 }
-.l{
-  color: #2196F3;
+.l {
+  color: #2196f3;
 }
 .actived {
-  background-color: #2196F3;
-  color: #FFFFFF;
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.container {
+  width: 1600px;
+}
+.us{
+  font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+}
+.about{
+  font-size: 14px;
+line-height: 1,7;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+.tit{
+  font-size: 36px;
+line-height: 1,16;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.logo-footer{
+  
+    color:white;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 2;
+    text-decoration: none;
+}
+.adre{
+  color: white;
 }
