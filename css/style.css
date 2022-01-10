@@ -86,7 +86,16 @@ line-height: 1,14;
 }
 .actived {
   background-color: #2196f3;
-  color: #ffffff;
+  color: white;
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16,2;
+/* identical to box height, or 162% */
+text-align: center;
+letter-spacing: 0.03em;
+
 }
 .container {
   width: 1600px;
@@ -202,5 +211,19 @@ letter-spacing: 0.06em;
 
 color: white;
 background-color: blue;
+
+}
+.portfolio-bu{
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16,2;
+/* identical to box height, or 162% */
+text-align: center;
+letter-spacing: 0.03em;
+
+color: black;
+
 
 }
