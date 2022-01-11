@@ -67,13 +67,14 @@ line-height: 1,14;
   color: #2196f3;
 }
 .adr {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
-  color: #757575;
-}
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    display: block;
+  margin-top: 10px;
+    color: #757575;
+  }
 .adr:hover {
   color: #2196f3;
 }
