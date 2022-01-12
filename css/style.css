@@ -138,6 +138,13 @@ color: #212121;
 }
 .adre{
   color: white;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1,71;
+/* or 171% */
+letter-spacing: 0.03em;
 }
 .list{
   font-size: 18px;
